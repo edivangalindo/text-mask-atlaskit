@@ -20,9 +20,11 @@
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
+    "@atlaskit/analytics-next": "^6.3.1",
     "@atlaskit/css-reset": "^5.0.8",
     "@atlaskit/form": "^6.2.0",
     "@atlaskit/theme": "^9.2.2",
+    "@emotion/core": "^10.0.21",
     "react-text-mask": "^5.4.3",
     "styled-components": "^4.3.2"
   },

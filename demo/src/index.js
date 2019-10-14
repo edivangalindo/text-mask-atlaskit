@@ -10,7 +10,7 @@ const Demo = () => (
       <React.Fragment>
         <h1>text-mask-atlaskit Demo</h1>
         <form {...formProps}>
-          <Field name="phone" defaultValue="123" label="phone" isRequired>
+          <Field name="phone" defaultValue="" label="phone" isRequired>
             {({ fieldProps }) => (
               <TextMaskAtlaskit
                 mask={[
