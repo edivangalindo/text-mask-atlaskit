@@ -1,6 +1,6 @@
 {
   "name": "text-mask-atlaskit",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "text-mask-atlaskit React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -23,6 +23,7 @@
     "@atlaskit/analytics-next": "^6.3.1",
     "@atlaskit/css-reset": "^5.0.8",
     "@atlaskit/form": "^6.2.0",
+    "@atlaskit/textfield": "^3.1.2",
     "@atlaskit/theme": "^9.2.2",
     "@emotion/core": "^10.0.21",
     "react-text-mask": "^5.4.3",

@@ -2,6 +2,7 @@ import React from "react";
 import { render } from "react-dom";
 import Form, { Field } from "@atlaskit/form";
 import "@atlaskit/css-reset";
+import TextField from "@atlaskit/textfield";
 import TextMaskAtlaskit from "../../src";
 
 const Demo = () => (

@@ -5,10 +5,7 @@ import {
   withAnalyticsContext,
   createAndFireEvent
 } from "@atlaskit/analytics-next";
-import {
-  name as packageName,
-  version as packageVersion
-} from "../version.json";
+import { name as packageName, version as packageVersion } from "../version.js";
 
 import Input from "./Input";
 import { Theme } from "../theme";
@@ -174,17 +171,17 @@ export { ForwardRefTextfield as TextFieldWithoutAnalytics };
 const createAndFireEventOnAtlaskit = createAndFireEvent("atlaskit");
 
 export default withAnalyticsContext({
-  componentName: "textField",
+  componentName: "textFieldAtlaskit",
   packageName,
   packageVersion
 })(
   withAnalyticsEvents({
     onBlur: createAndFireEventOnAtlaskit({
       action: "blurred",
-      actionSubject: "textField",
+      actionSubject: "textFieldAtlaskit",
 
       attributes: {
-        componentName: "textField",
+        componentName: "textFieldAtlaskit",
         packageName,
         packageVersion
       }
@@ -192,10 +189,10 @@ export default withAnalyticsContext({
 
     onFocus: createAndFireEventOnAtlaskit({
       action: "focused",
-      actionSubject: "textField",
+      actionSubject: "textFieldAtlaskit",
 
       attributes: {
-        componentName: "textField",
+        componentName: "textFieldAtlaskit",
         packageName,
         packageVersion
       }
